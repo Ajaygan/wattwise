@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "site": "CIT-SS-01",
+    "mode": "SYNTHETIC_DEMO",
+    "interval_minutes": 15
+  },
+  "overview": {
+    "current_demand_kva": 278.7,
+    "sanctioned_demand_kva": 800,
+    "threshold_percent": 85,
+    "threshold_kva": 680,
+    "headroom_kva": 401.3,
+    "trend": "STABLE"
+  },
+  "energy_monitoring": {
+    "voltage": {
+      "L1": 415.0,
+      "L2": 415.4,
+      "L3": 414.9
+    },
+    "current": {
+      "L1": 389.8,
+      "L2": 382.0,
+      "L3": 385.9
+    },
+    "active_power_kw": 267.8,
+    "apparent_power_kva": 278.7,
+    "reactive_power_kvar": 71.1,
+    "power_factor": 0.961
+  },
+  "forecasting": {
+    "points": [
+      {
+        "minutes": 0,
+        "demand_kva": 278.7
+      },
+      {
+        "minutes": 15,
+        "demand_kva": 309.9
+      },
+      {
+        "minutes": 30,
+        "demand_kva": 335.2
+      },
+      {
+        "minutes": 60,
+        "demand_kva": 386.4
+      }
+    ],
+    "risk": "LOW"
+  },
+  "peak_shield": {
+    "threshold_kva": 680,
+    "state": "SAFE",
+    "tiers": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "mitigation": {
+    "active": 2,
+    "pending_approval": 2,
+    "actions": []
+  },
+  "weather": {
+    "temperature_c": 28.5,
+    "humidity_percent": 75,
+    "wind_speed_kmh": 10.4
+  },
+  "historical": {
+    "daily_peaks_kva": [
+      412,
+      438,
+      421,
+      456,
+      389,
+      402,
+      387
+    ],
+    "threshold_crossings": 0
+  },
+  "settings": {
+    "telemetry_interval": 15,
+    "device_control_enabled": false,
+    "mode": "SIMULATION_ONLY"
+  }
+}
